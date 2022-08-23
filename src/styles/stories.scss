@@ -1,0 +1,35 @@
+@import "./properties";
+.stories{
+  display: flex;
+  align-content: center;
+  background-color: $background-white;
+  border: 1px solid $border-color-gray;
+  border-radius: 3px;
+  margin: 2em 0 1.5em 0;
+  height: 7.4em;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 2px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #000000;
+  }
+}
+@media only screen and (max-width: 640px){
+  .stories{
+    margin:0 0 0.5em 0;
+  }
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+html::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #E1DDC9;
+  box-shadow: inset 0 0 6px #E1DDC9;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  outline: 1px solid #E1DDC9;
+}
