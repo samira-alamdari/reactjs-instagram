@@ -1,6 +1,7 @@
 @import "./properties";
 .menu{
   display: flex;
+  align-items: center;
   padding-right: 1.5em;
   .icon{
     margin-right: 1.5em;

@@ -1,0 +1,74 @@
+@import "./properties";
+.directChat{
+  width: 60%;
+  height: 100%;
+  position: relative;
+  .DirectChatMessage {
+    padding: 20px;
+  }
+  .DirectChatInput {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    height: 7vh;
+    bottom: 20px;
+    left: 2%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #edebeb;
+    border-radius: 22px;
+    input[type="text"] {
+      width: 90%;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      margin: 0;
+      border: none;
+      &:focus-visible{
+        border: none;
+        outline: none;
+      }
+    }
+    input[type="submit"]{
+      width: 10%;
+      color: #0095f6;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      &:focus-visible{
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .DirectChatMessage {
+    .myMsg {
+      display: flex;
+      justify-content: flex-end;
+      pre{
+        border-radius: 22px;
+        background-color: #f8f9f9;
+        padding: 15px;
+        margin-bottom: 10px;
+        display: block;
+        box-sizing: border-box;
+        width: fit-content;
+      }
+    }
+    .instaMsg{
+      span{
+        border-radius: 22px;
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        display: block;
+        box-sizing: border-box;
+        width: -moz-fit-content;
+        width: fit-content;
+        border: 1px solid #f1f3f4;
+      }
+    }
+  }
+}
+

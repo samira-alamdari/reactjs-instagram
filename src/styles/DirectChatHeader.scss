@@ -1,0 +1,15 @@
+@import "./properties";
+.directChatHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 7vh;
+  border-bottom: 1px solid #edebeb;
+  .icons {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+  }
+}
+

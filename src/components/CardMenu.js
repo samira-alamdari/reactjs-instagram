@@ -1,7 +1,20 @@
-import "../styles/cardMenu.scss"
+import "../styles/cardMenu.scss";
+import {ReactComponent as Like} from "../images/like.svg";
+import {ReactComponent as Comment} from "../images/comment.svg";
+import {ReactComponent as Inbox} from "../images/inbox.svg";
+import {useState} from "react";
+
 const CardMenu =()=>{
+    const [isFill, setFill] = useState("false");
+    const toggleFill = () => {
+        setFill(!isFill);
+    };
     return(
-        <div className="cardMenu"></div>
+        <div className="cardMenu">
+            <Like onClick={toggleFill} className={`${isFill ? "" : "liked"} icon`}/>
+            <Comment className="icon"/>
+            <Inbox className="icon"/>
+        </div>
     )
 }
 export default CardMenu;

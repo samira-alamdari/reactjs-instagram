@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment="create homePage" />
+    <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment="create homePage">
+      <change afterPath="$PROJECT_DIR$/src/base/customeHooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/menuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Direct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DirectChat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DirectChatHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DirectChatInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DirectChatmessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DirectUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configs/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/DirectChat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/DirectChatHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/DirectUsers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/direct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/direct.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/cardMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/cardMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/stories.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +44,30 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2DlhOyHesD4pCZpxMlsyRycgjdz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,9 +76,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -40,7 +94,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661279549544</updated>
-      <workItem from="1661279551064" duration="655000" />
+      <workItem from="1661279551064" duration="815000" />
+      <workItem from="1661621767822" duration="5127000" />
+      <workItem from="1661660108699" duration="3957000" />
+      <workItem from="1661666624362" duration="2324000" />
+      <workItem from="1661671078509" duration="4086000" />
+      <workItem from="1661965181521" duration="11749000" />
+      <workItem from="1662029186234" duration="18342000" />
+      <workItem from="1662123860582" duration="11729000" />
+      <workItem from="1662227541440" duration="2997000" />
+      <workItem from="1662268267172" duration="1890000" />
     </task>
     <task id="LOCAL-00001" summary="create homePage">
       <created>1661279565934</created>
@@ -56,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661279598215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create homePage">
+      <created>1661281183749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661281183749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +142,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create homePage" />
