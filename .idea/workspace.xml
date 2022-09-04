@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment="create homePage">
-      <change afterPath="$PROJECT_DIR$/src/base/customeHooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/menuItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Direct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DirectChat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DirectChatHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DirectChatInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DirectChatmessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DirectUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/DirectChat.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/DirectChatHeader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/DirectUsers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/direct.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/direct.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/cardMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/cardMenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/stories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/stories.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +74,7 @@
       <workItem from="1662029186234" duration="18342000" />
       <workItem from="1662123860582" duration="11729000" />
       <workItem from="1662227541440" duration="2997000" />
-      <workItem from="1662268267172" duration="1890000" />
+      <workItem from="1662268267172" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="create homePage">
       <created>1661279565934</created>
