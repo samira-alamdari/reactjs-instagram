@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment="create homePage">
+      <change afterPath="$PROJECT_DIR$/src/containers/directLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Direct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Direct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DirectChatHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DirectChatInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DirectChatmessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatmessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DirectUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/DirectChat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DirectChat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/DirectUsers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DirectUsers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,8 @@
       <workItem from="1662029186234" duration="18342000" />
       <workItem from="1662123860582" duration="11729000" />
       <workItem from="1662227541440" duration="2997000" />
-      <workItem from="1662268267172" duration="3194000" />
+      <workItem from="1662268267172" duration="15924000" />
+      <workItem from="1662718770446" duration="3142000" />
     </task>
     <task id="LOCAL-00001" summary="create homePage">
       <created>1661279565934</created>
@@ -118,5 +128,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create homePage" />
     <option name="LAST_COMMIT_MESSAGE" value="create homePage" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/configs/routes.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,6 @@
 import {useState} from "react";
-import {useDispatch, useSelector} from "react-redux";
-import {ACTION_MAKE_CHAT , ACTION_MAKE_FAKE} from "../redux/slices/userSlice"
+import {useDispatch} from "react-redux";
+import {ACTION_MAKE_CHAT} from "../redux/slices/userSlice"
 
 const DirectChatInput=()=>{
     const dispatcher=useDispatch() ;
@@ -11,13 +11,10 @@ const DirectChatInput=()=>{
     }
     const onInputSubmit=(e)=>{
         e.preventDefault();
-        // console.log(message);
         if (message.trim()){
             dispatcher(ACTION_MAKE_CHAT(message.trim()));
         }
         reset();
-
-        dispatcher(ACTION_MAKE_FAKE('samira'))
     }
     return(
         <form className="DirectChatInput">

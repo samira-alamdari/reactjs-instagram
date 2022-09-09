@@ -5,6 +5,8 @@
   position: relative;
   .DirectChatMessage {
     padding: 20px;
+    height: calc(100% - 32vh);
+    overflow-y: auto;
   }
   .DirectChatInput {
     position: absolute;

@@ -2,7 +2,7 @@ import {createSlice} from "@reduxjs/toolkit";
 
 const initialState= {
     chat:[],
-    instaChat:[]
+    instaChat:'just wanna answer to you',
 }
 
 export const userSlice=createSlice({
@@ -12,8 +12,9 @@ export const userSlice=createSlice({
             ACTION_MAKE_CHAT:(state,action )=> {
                 state.chat.push(action.payload)
             },
-            ACTION_MAKE_FAKE:(state,action)=>{
-                state.instaChat.push(action.payload)
+            ACTION_MAKE_FAKE:(state)=>{
+                setTimeout(
+                    state.instaChat = state,5000)
             }
         }
     },

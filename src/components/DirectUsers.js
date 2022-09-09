@@ -1,14 +1,18 @@
 import "../styles/DirectUsers.scss"
 import {useEffect, useState} from "react";
 import axios from "axios";
+import {Link} from "react-router-dom";
+
 const DirectUsers=()=>{
     let[activeID,setActiveID]=useState(false);
     const[users,setUsers]=useState([]);
+    const[userURL,setUserURL]=useState(window.location.href);
     const findActiveID=(id)=>{
-        // console.log(index);
-        setActiveID(id)
+        setActiveID(id);
     }
-    console.log(activeID);
+    // const userRoutes=[
+    //     {path:'userURL.concat(\'/\' + user.id)' element}
+    // ]
     const fetchData=async ()=>{
         try {
             const response = await axios({
@@ -27,12 +31,12 @@ const DirectUsers=()=>{
     return(
         users.map((user,index)=>{
             return(
-                <div className={`directUser ${activeID === user.id ? 'active' : ''} `} key={index} onClick={()=>findActiveID(user.id)} >
+                <Link to={userURL.concat('/' + user.id)} className={`directUser ${activeID === user.id ? 'active' : ''} `} key={user.id} id={user.id} onClick={()=>findActiveID(user.id)} >
                     <div className="userImage"><img src={user.image} alt=""/></div>
                     <div className="textContainer">
                         <span className="accountName">{user.firstName}</span>
                     </div>
-                </div>
+                </Link>
             )
         })
     )
