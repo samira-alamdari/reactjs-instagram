@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment="create homePage">
-      <change afterPath="$PROJECT_DIR$/src/containers/directLayout.js" afterDir="false" />
+    <list default="true" id="2bcfdaed-e298-4bd0-83b9-a1573aef6058" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Direct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Direct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DirectChatHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DirectChatInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DirectChatmessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectChatmessage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DirectUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DirectUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/directLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/directLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/slices/userSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/userSlice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/DirectChat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DirectChat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/DirectUsers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DirectUsers.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -84,7 +87,8 @@
       <workItem from="1662123860582" duration="11729000" />
       <workItem from="1662227541440" duration="2997000" />
       <workItem from="1662268267172" duration="15924000" />
-      <workItem from="1662718770446" duration="3142000" />
+      <workItem from="1662718770446" duration="8902000" />
+      <workItem from="1662834406739" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="create homePage">
       <created>1661279565934</created>
@@ -107,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661281183749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create homepage and direct messages">
+      <created>1662727678529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662727678529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create homePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="create homePage" />
+    <MESSAGE value="create homepage and direct messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="create homepage and direct messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

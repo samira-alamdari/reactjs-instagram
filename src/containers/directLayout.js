@@ -1,23 +1,21 @@
 import DirectUsers from "../components/DirectUsers";
 import DirectChatHeader from "../components/DirectChatHeader";
+import DirectChatInput from "../components/DirectChatInput";
 
 
-const directLayout = ({children}) => {
+const DirectLayout = ({children}) => {
     return (
-        <div className="directContainer">
-            <main>
-                <div className="container">
-                    <div className="Direct">
-                        <DirectUsers/>
-                        <div className="directChat">
-                            <DirectChatHeader/>
-                            {children}
-                        </div>
-                    </div>
-                </div>
-            </main>
+        <div className="Direct">
+            <div className="directUsers">
+                <DirectUsers/>
+            </div>
+            <div className="directChat">
+                <DirectChatHeader/>
+                {children}
+                <DirectChatInput/>
+            </div>
         </div>
     )
 }
 
-export default directLayout;
+export default DirectLayout;
