@@ -32,4 +32,13 @@
       object-fit: cover;
     }
   }
+  .likedBy{
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    column-gap: 10px;
+    .profile{
+      margin: 0;
+    }
+  }
 }

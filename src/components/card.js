@@ -2,25 +2,21 @@ import "../styles/card.scss";
 import axios from "axios";
 import {useEffect, useState} from "react";
 import Profile from "./Profile";
-import users from "../data/users";
 import CardMenu from "./CardMenu";
-// import Comment from "./Comment";
 const Card=(props)=>{
     const{
         storyBorder,
-        comment,
         likedByText,
-        likedByNumber,
-        hours
+        likedByNumber
     }=props
 
     const[cardImgs,setCardImgs]=useState([]);
+    // Getting Every Post Picture
     const fetchData=async ()=>{
         try {
             const response = await axios({
                 url:'https://api.unsplash.com/photos/?client_id=uPQ-b_lwvyxB5zYNwRDam012Ox-DmjxUBVkJDFyd1tE'
             })
-            // console.log(response.data);
             setCardImgs(response.data);
 
         } catch (err) {
@@ -37,9 +33,7 @@ const Card=(props)=>{
     }
     const randomId=getRndInteger(1,10);
     const src=cardImgs.map(item=>{return(item.urls.raw)});
-    // console.log(src);
     const eachSrc=src[randomId]
-    // console.log(eachSrc);
     return(
         <div className="card">
             <header>
@@ -60,33 +54,10 @@ const Card=(props)=>{
                     <strong>{likedByNumber} others</strong>
                 </span>
             </div>
-            {/*<div className="comments">*/}
-            {/*    {*/}
-            {/*        comments.map(comment=>{*/}
-            {/*            return(*/}
-            {/*                <Comment key={comment.id}*/}
-            {/*                         accountName{comment.user }*/}
-            {/*                         comment{comment.text }/>*/}
-            {/*            )*/}
-            {/*        })*/}
-            {/*    }*/}
-            {/*</div>*/}
-            {/*<div className="timePosted">{hours} HOURS AGO</div>*/}
-            {/*<div className="addComment">*/}
-            {/*    <div className="commentText">Add a commnet ...</div>*/}
-            {/*    <div className="postText">POST</div>*/}
-            {/*</div>*/}
         </div>
     )
 }
 export default Card;
-// {
-//     cardImgs.map(cardImg=>{
-//         return(
-//             <img key={cardImg.user.id} src={cardImg.urls.regular} alt={cardImg.alt_description}/>
-//         )
-//     })
-// }
 
 
 

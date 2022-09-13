@@ -7,7 +7,6 @@ const SideBar=()=>{
     return(
         <div className="sideBar">
             <Profile username="samira alamdari" caption="react developer" urlText="Switch" image={profilePhoto} iconSize="big"/>
-            {/*<Profile username="samira alamdari" caption="react developer" urlText="Switch" iconSize="big" image={profilePhoto} storyBorder={true}/>*/}
             <Suggestions/>
             <Footer/>
         </div>

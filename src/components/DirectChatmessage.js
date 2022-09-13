@@ -6,7 +6,7 @@ const DirectChatMessage=()=>{
     const params=useParams();
     const {chat}=useSelector(state=>state.chat);
     const {instaChat}=useSelector(state=>state.chat);
-    console.log(chat.filter(message=>message.id==params.direct_id));
+    // console.log(chat.filter(message=>message.id==params.direct_id));
     return(
         <div className="DirectChatMessage">
             {

@@ -3,7 +3,6 @@ import ProfileIcon from "./profileIcon";
 import users from "../data/users";
 const Story=()=>{
     let accountName=users[Math.floor(Math.random() * users.length)].first_name;
-    // console.log(accountName);
     if(accountName.length > 10){
         accountName=accountName.substring(0,10) + "...";
     }

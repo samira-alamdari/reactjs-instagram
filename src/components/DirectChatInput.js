@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {ACTION_MAKE_CHAT} from "../redux/slices/userSlice"
 import {useParams} from "react-router-dom";
 
@@ -8,10 +8,10 @@ const DirectChatInput=()=>{
     const dispatcher=useDispatch() ;
     const[message,setMessage]=useState('');
     const reset = () => setMessage('');
-    // const[content,setContent]=useState([{id:}]);
     const onInputChange=(e)=>{
         setMessage(e.target.value);
     }
+    //Send message and userId to redux
     const onInputSubmit=(e)=>{
         e.preventDefault();
         if (message.trim()){

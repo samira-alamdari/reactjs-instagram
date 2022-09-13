@@ -16,10 +16,7 @@ export const userSlice=createSlice({
             ACTION_MAKE_FAKE:(state)=>{
                 setTimeout(
                     state.instaChat = state,5000)
-            },
-            // ACTION_GET_ID:(state,action)=>{
-            //     state.id=action.payload
-            // }
+            }
         }
     },
     )

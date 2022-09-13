@@ -5,8 +5,6 @@ import {
     Route,
 } from "react-router-dom";
 import routes from "../configs/routes";
-import Home from "./Home";
-import Direct from "./Direct";
 import Layout from "../containers";
 import {Fragment} from "react";
 

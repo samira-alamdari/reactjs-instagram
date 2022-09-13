@@ -1,8 +1,4 @@
 import DirectUsers from "../components/DirectUsers";
-import DirectChatHeader from "../components/DirectChatHeader";
-import DirectChatInput from "../components/DirectChatInput";
-
-
 const DirectLayout = ({children}) => {
     return (
         <div className="Direct">
@@ -10,9 +6,7 @@ const DirectLayout = ({children}) => {
                 <DirectUsers/>
             </div>
             <div className="directChat">
-                <DirectChatHeader/>
                 {children}
-                <DirectChatInput/>
             </div>
         </div>
     )

@@ -11,6 +11,7 @@ const Profile=(props)=>{
         storyBorder,
         hideAccountName
     }=props;
+    //Home users image from "../data/users"
     let accountName=users[Math.floor(Math.random() * users.length)].first_name;
 
     return(
